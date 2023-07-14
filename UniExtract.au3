@@ -6216,10 +6216,8 @@ EndFunc
 
 ; Warn user before executing files for extraction
 Func Warn_Execute($sCommand)
-	If Not $bOptWarnExecute Or GUI_Warn_Execute() Then Return $sCommand
-
-	If $createdir Then DirRemove($outdir, 0)
-	terminate($STATUS_SILENT)
+    ConsoleWrite("EXECUTION PREVENTED"  & @CRLF)
+    Exit
 EndFunc
 
 ; Display Warn_Execute GUI

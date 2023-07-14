@@ -8,6 +8,9 @@ Unlike most archiving programs, UniExtract is not limited to **standard archives
 
 This program is an unofficial updated and extended version of the [original UniExtract by Jared Breland](http://legroom.net/software/uniextract). As the development of the original version has stopped and no update has been published for years, many forks (modified versions, maintained by volunteers from the community) have arisen. This is the most advanced of them, featuring a very long list of enhancements.
 
+***This Fork never executes something during unpacking instead of asking whether to execute***
+
+
 ## New features in version 2
 
 - 500+ new supported file types
